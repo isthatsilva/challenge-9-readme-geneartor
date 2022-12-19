@@ -47,7 +47,7 @@ const questions = [
     {
         type: "input",
         message: "How can a user contribute to the repo?",
-        name: "contributions"
+        name: "contributors"
     },
 
 ];
