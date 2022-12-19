@@ -51,3 +51,26 @@ const questions = [
     },
 
 ];
+
+function writeToFile(filename, data) {
+    fs.writeFile(filename, data, function(err) {
+        console.log(filename)
+        console.log(data)
+
+        if (err) {
+            return console.log(err)
+        } else {
+            console.log("README success")
+        }
+    })
+};
+
+function init() {
+    inquirer.prompt(questions)
+        .then(function(data) {
+            writeToFile("README.md", generateReadme(data));
+            console.log(data)
+        })
+};
+
+init();
