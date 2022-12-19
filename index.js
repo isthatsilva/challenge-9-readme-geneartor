@@ -26,7 +26,7 @@ const questions = [
     {
         type: "list",
         message: "Choose a license for your project.",
-        name: "licenses", 
+        name: "license", 
         choices: ["MIT", "Apache2.0", "GNU", "Mozilla-Public", "None"]
     },
     {
@@ -41,8 +41,8 @@ const questions = [
     },
     {
         type: "input",
-        message: "What are the guidelines for using this repo?",
-        name: "benefits"
+        message: "What is the use of this application?",
+        name: "usage"
     },
     {
         type: "input",

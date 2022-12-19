@@ -1,11 +1,6 @@
 const generateReadme = data => {
-    return `# ${data.title}
-    if (data.licenses === "MIT License") {
-        data.licenses = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-      }
-      if (data.licenses === "APACHE 2.0") {
-        data.licenses = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-      }
+  return `# ${data.title}
+  ![Github licence](http://img.shields.io/badge/license-${data.license}-blue.svg)
         
     ## Description 
     ${data.description}
@@ -19,7 +14,10 @@ const generateReadme = data => {
     - [Questions](#questions)
         
     ## Installation 
-    ${data.install}
+    ${data.installation}
+
+    ## Usage
+    ${data.usage}
 
     ## License 
     This project is license under ${data.license}
@@ -33,7 +31,8 @@ const generateReadme = data => {
     ## Questions
     You can email me at ${data.email}. 
     You can view more of my work at https://github.com/${data.github}.
-    `;
-    }
-      
-    module.exports = generateReadme;
+  `;
+}
+    
+module.exports = generateReadme;
+  
