@@ -13,20 +13,25 @@ This application is made to create a professional README following a set of ques
 - [Questions](#questions)
         
 ## Installation 
-First, the user must clone the repo. Then, the user must have Node installed.
+First, the user must clone the repo. Then, the user must instal Node.
 
 ## Usage
-The use is to generate a professional README.
+The use of this application is to generate a professional README.
 
 ## License 
 This project is license under MIT
 
 ## Contributions 
-Fork the repo to contribute.
+The user can fork the repo if they want to contribute.
 
 ## Tests
-run the command "node index.js"
+Run the command "node index.js"
 
 ## Questions
 You can email me at isthatsilva@gmail.com. 
 You can view more of my work at https://github.com/isthatsilva.
+
+## Links
+https://drive.google.com/file/d/1w2FkYgNWVgGApVoGzQROGHAPsVfr6nTl/view
+
+![picture of finished application](./assets/readme.png)
